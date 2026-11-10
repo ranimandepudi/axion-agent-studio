@@ -1,0 +1,8 @@
+# Optional local-model build: model directory is the build context, not repo root.
+# Use the built worker image as BASE_IMAGE to retain its application notices.
+ARG BASE_IMAGE
+FROM ${BASE_IMAGE}
+ARG MODEL_FILENAME=gemma-4-E4B-it-Q4_0.gguf
+COPY --chown=10001:10001 ${MODEL_FILENAME} /opt/model/model.gguf
+USER 10001:10001
+ENTRYPOINT ["python", "-c", "import os,shutil; shutil.copyfile('/opt/model/model.gguf', '/models/' + os.environ['MODEL_FILENAME'])"]

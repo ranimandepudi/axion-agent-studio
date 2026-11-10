@@ -1,0 +1,8 @@
+[
+  {"sku":"TOTE","name":"Everyday Tote","price_cents":3200,"category":"Carry","description":"A sturdy canvas companion for everyday essentials.","emoji":"👜"},
+  {"sku":"BOTTLE","name":"Studio Bottle","price_cents":2800,"category":"Everyday","description":"Double-wall stainless steel. Ready for the long run.","emoji":"🧴"},
+  {"sku":"HEADPHONES","name":"Focus Headphones","price_cents":8900,"category":"Tech","description":"A little more focus for your daily soundtrack.","emoji":"🎧"},
+  {"sku":"LAMP","name":"Arc Desk Lamp","price_cents":6400,"category":"Workspace","description":"Warm light and a clean silhouette for your desk.","emoji":"💡"},
+  {"sku":"NOTEBOOK","name":"Field Notebook","price_cents":1800,"category":"Workspace","description":"Good ideas deserve a place to start.","emoji":"📓"},
+  {"sku":"MUG","name":"Morning Mug","price_cents":2400,"category":"Everyday","description":"A simple ceramic favorite for your first cup.","emoji":"☕"}
+]
